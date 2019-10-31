@@ -10,8 +10,8 @@ This project is a simple API using NodeJS and contains a simple User CRUD
 - [Usage example](#usage-example)
 - [Meta](#meta)
 
+
 ## Development setup
----
 
 After cloning, to run this project, install it locally using `yarn`:
 
@@ -22,8 +22,8 @@ yarn dev
 
 The project is running in `http://localhost:3000`
 
+
 ## Usage example
----
 
 Test the API using Postman, Insomnia or Curl:
 
@@ -70,8 +70,8 @@ Test the API using Postman, Insomnia or Curl:
   </tbody>
 </table>
 
+
 ## Meta
----
 
 Developed by Agnaldo Burgo Junior - agnaldoburgojr@gmail.com
 
