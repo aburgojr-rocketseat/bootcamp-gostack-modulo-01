@@ -46,26 +46,36 @@ Test the API using Postman, Insomnia or Curl:
     <tr>
       <td>POST</td>
       <td><i>/users</i></td>
-      <td></td>
+      <td>
+        <pre>
+          {
+            "name": "Jonh Doe"
+          }
+        </pre>
+      </td>
       <td>Create a user</td>
     </tr>
     <tr>
       <td>GET</td>
       <td><i>/users/1</i></td>
-      <td></td>
-      <td>Show a user</td>
+      <td>
+        {
+          "name": "Jonh Doe Jr"
+        }
+      </td>
+      <td>Show user</td>
     </tr>
     <tr>
       <td>PUT</td>
       <td><i>/users/1</i></td>
       <td></td>
-      <td>Update a user</td>
+      <td>Update user</td>
     </tr>
     <tr>
       <td>DELETE</td>
       <td><i>/users/1</i></td>
       <td></td>
-      <td>Delete a user</td>
+      <td>Delete user</td>
     </tr>
   </tbody>
 </table>
