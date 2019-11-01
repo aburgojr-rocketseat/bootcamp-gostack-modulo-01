@@ -48,9 +48,9 @@ Test the API using Postman, Insomnia or Curl:
       <td><i>/users</i></td>
       <td>
         <pre>
-          {
-            "name": "Jonh Doe"
-          }
+{
+  "name": "Jonh Doe"
+}
         </pre>
       </td>
       <td>Create a user</td>
@@ -59,9 +59,11 @@ Test the API using Postman, Insomnia or Curl:
       <td>GET</td>
       <td><i>/users/1</i></td>
       <td>
-        {
-          "name": "Jonh Doe Jr"
-        }
+       <pre>
+{
+  "name": "Jonh Doe Jr"
+}
+        </pre>
       </td>
       <td>Show user</td>
     </tr>
